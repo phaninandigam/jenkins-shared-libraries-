@@ -1,6 +1,3 @@
-def call() {
-    return this
-}
 
 def checkout() {
     echo 'Checking out code...'
