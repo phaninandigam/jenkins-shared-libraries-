@@ -1,4 +1,3 @@
-
 def checkout() {
     echo 'Checking out code...'
     checkout scm
