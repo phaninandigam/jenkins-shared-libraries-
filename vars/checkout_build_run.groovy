@@ -1,14 +1,14 @@
-def checkout() {
+def testcheckout() {
     echo 'Checking out code...'
     checkout scm
 }
 
-def build() {
+def testbuild() {
     echo 'Building project with Maven...'
     sh 'mvn clean package'
 }
 
-def run() {
+def testrun() {
     echo 'Running Spring Boot application...'
     sh 'nohup mvn spring-boot:run &'
 
